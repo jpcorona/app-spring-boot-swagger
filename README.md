@@ -18,6 +18,12 @@ Para ejecutar el Spring tools Suite:
 6) En el enlace del home se encuentra la documentación con Swagger de los servicios REST creados. 
 
 
+nota: si los puertos están ocupados ejecutar los siguientes comandos:
+•	netstat -ao |find /i “listening” --> Identificas el Id del proceso.
+•	Taskkill /F /IM <Id del Proceso del Puerto 8080> Terminas el proceso
+
+
+
 #####################EJECUTAR APLIACION DESCARGANDO IAMEGEN VERSIONADA EN DOCKER HUB############################
 Para ejecutar la app dockerizada y versionada en Docker HUB:
 Descargar imagen:
