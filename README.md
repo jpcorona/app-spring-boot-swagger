@@ -30,7 +30,7 @@ Se desarrollar un CRUD con servicios REST considerando y tulizando las siguiente
 
 10-Para manejar la seguridad se utlizó Spring Security y la referencia de vulnerabilidas recientes el proyecto open source OWASP
 
-
+############################################################################################
 Si queremos dockerizar nuestra app (El proyecto ya contiene el Dockerfile de configuración)
 docker build -t "app-bice-test" .
 
@@ -41,6 +41,7 @@ Para subir a dockerhub:
 docker push jcoronanavarro/bice-test:latest
 
 nota: reemplazar jcoronanavarro por su id en docker hub.
+###############################################################################################
 
 Para ejecutar el Spring tools Suite:
 
@@ -57,9 +58,9 @@ Para ejecutar el Spring tools Suite:
 6) En el enlace del home se encuentra la documentación con Swagger de los servicios REST creados. 
 
 
+#####################EJECUTAR APLIACION DESCARGANDO IAMEGEN VERSIONADA EN DOCKER HUB############################
 Para ejecutar la app dockerizada y versionada en Docker HUB:
 Descargar imagen:
-
 
 Abrir una consola de comandos y ejecutar docker pull jcoronanavarro/bice-test:latest
 Generar contenedor:
@@ -68,23 +69,6 @@ Generar contenedor:
 docker run -d --name app-docker-bice-test --add-host=postgres_server:[IP DE SU COMPUTADOR] -p 8080:8080 jcoronanavarro/app-bice-test:latest
 
 
-
-Para ejecutar la aplicacion en Spring tools Suite que consume la API https://www.indecon.online/
-
-
-1)Descargar proyecto maven
-
-
-2)Importar como proyecto maven
-
-
-3)Eejecutar con maven build : clean install spring-boot:run
-
-
-4)Abir el navegador http://localhost:2410/CotizarMetales
-
-
-5) Se traeran los valores de "Plata" - "cobre" - "oro"
 
 
 
