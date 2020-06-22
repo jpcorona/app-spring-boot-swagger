@@ -24,7 +24,10 @@ Generar contenedor:
 
 
 docker run -d --name app-docker-bice-test --add-host=postgres_server:[IP DE SU COMPUTADOR] -p 8080:8080 jcoronanavarro/app-bice-test:latest
-Se desarrollar un CRUD con servicios REST considerando y tulizando las siguientes características:
+
+
+
+Se desarrolla un CRUD con servicios REST considerando y tulizando las siguientes características:
 
 1-App Spring Boot e Hibernate Servicios Rest
 
@@ -68,31 +71,6 @@ docker push jcoronanavarro/bice-test:latest
 
 nota: reemplazar jcoronanavarro por su id en docker hub.
 ###############################################################################################
-
-Para ejecutar el Spring tools Suite:
-
-1)Descargar proyecto maven
-
-2)Importar como proyecto maven
-
-3)Eejecutar con maven build : clean install spring-boot:run
-
-4)Abir el navegador localhost:8080
-
-5) acceder con user:bice password:bicevida
-
-6) En el enlace del home se encuentra la documentación con Swagger de los servicios REST creados. 
-
-
-#####################EJECUTAR APLIACION DESCARGANDO IAMEGEN VERSIONADA EN DOCKER HUB############################
-Para ejecutar la app dockerizada y versionada en Docker HUB:
-Descargar imagen:
-
-Abrir una consola de comandos y ejecutar docker pull jcoronanavarro/bice-test:latest
-Generar contenedor:
-
-
-docker run -d --name app-docker-bice-test --add-host=postgres_server:[IP DE SU COMPUTADOR] -p 8080:8080 jcoronanavarro/app-bice-test:latest
 
 
 
