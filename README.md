@@ -43,8 +43,9 @@ Para ejecutar la aplicacion en Spring tools Suite que consume la API https://www
 1)Descargar proyecto maven
 2)Importar como proyecto maven
 3)Eejecutar con maven build : clean install spring-boot:run
-4)Abir el navegador localhost:2410
+4)Abir el navegador http://localhost:8080/CotizarMetales
 5) Se traeran los valores de "Plata" - "cobre" - "oro"
+
 
 
 
