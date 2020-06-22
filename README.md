@@ -19,7 +19,9 @@ Para ejecutar el Spring tools Suite:
 
 
 nota: si los puertos están ocupados ejecutar los siguientes comandos:
+
 •	netstat -ao |find /i “listening” --> Identificas el Id del proceso.
+
 •	Taskkill /F /IM <Id del Proceso del Puerto 8080> Terminas el proceso
 
 
