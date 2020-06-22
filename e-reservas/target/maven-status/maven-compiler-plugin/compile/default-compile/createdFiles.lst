@@ -1,0 +1,12 @@
+com\reservas\ereservas\modelo\Cliente.class
+com\reservas\ereservas\negocio\repository\ClienteRepository.class
+com\reservas\ereservas\util\SwaggerConfiguration.class
+com\reservas\ereservas\vista\resources\vo\ClienteVO.class
+com\reservas\ereservas\vista\controllers\LoginController.class
+com\reservas\ereservas\util\BasicConfiguration.class
+com\reservas\ereservas\EReservasApplication.class
+com\reservas\ereservas\negocio\services\ClienteService.class
+com\reservas\ereservas\util\TestJunit.class
+com\reservas\ereservas\vista\resources\ClienteResource.class
+com\reservas\ereservas\negocio\repository\ReservaRepository.class
+com\reservas\ereservas\modelo\Reserva.class
