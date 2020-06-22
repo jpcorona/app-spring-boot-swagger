@@ -11,7 +11,7 @@ docker tag bice-test jcoronanavarro/bice-test:latest
 
 
 Para subir a dockerhub:
-docker push jcoronanavarro/app-bice-test:latest
+docker push jcoronanavarro/bice-test:latest
 
 
 Descargar imagen:
