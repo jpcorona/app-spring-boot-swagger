@@ -8,3 +8,5 @@ docker build -t "app-bice-test" .
 Para subir a dockerhub:
 
 docker tag app-bice-test jcoronanavarro/app-bice-test:latest
+
+docker push jcoronanavarro/app-bice-test:latest
