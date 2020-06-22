@@ -1,5 +1,8 @@
 # app-bice
 
+La aplicación consiste el una aplicación de reservas con sus respectivo CRUD con servicios REST que está documentado con swagger.
+Se uso framework thymeleaf para implementar plantilla html.
+
 Para ejecutar el Spring tools Suite:
 
 1)Descargar proyecto maven
