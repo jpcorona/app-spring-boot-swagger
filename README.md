@@ -7,7 +7,7 @@ docker build -t "app-bice-test" .
 
 
 Preparar imagen para subir:
-docker tag app-bice-test jcoronanavarro/app-bice-test:latest
+docker tag bice-test jcoronanavarro/bice-test:latest
 
 
 Para subir a dockerhub:
