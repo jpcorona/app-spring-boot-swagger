@@ -32,6 +32,7 @@ Se desarrollar un CRUD con servicios REST considerando y tulizando las siguiente
 
 ############################################################################################
 Si queremos dockerizar nuestra app (El proyecto ya contiene el Dockerfile de configuración)
+
 docker build -t "app-bice-test" .
 
 Preparar imagen para subir:
@@ -67,7 +68,6 @@ Generar contenedor:
 
 
 docker run -d --name app-docker-bice-test --add-host=postgres_server:[IP DE SU COMPUTADOR] -p 8080:8080 jcoronanavarro/app-bice-test:latest
-
 
 
 
