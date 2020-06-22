@@ -56,18 +56,34 @@ Para ejecutar el Spring tools Suite:
 
 6) En el enlace del home se encuentra la documentación con Swagger de los servicios REST creados. 
 
+
 Para ejecutar la app dockerizada y versionada en Docker HUB:
 Descargar imagen:
+
+
 Abrir una consola de comandos y ejecutar docker pull jcoronanavarro/bice-test:latest
 Generar contenedor:
+
+
 docker run -d --name app-docker-bice-test --add-host=postgres_server:[IP DE SU COMPUTADOR] -p 8080:8080 jcoronanavarro/app-bice-test:latest
 
 
+
 Para ejecutar la aplicacion en Spring tools Suite que consume la API https://www.indecon.online/
+
+
 1)Descargar proyecto maven
+
+
 2)Importar como proyecto maven
+
+
 3)Eejecutar con maven build : clean install spring-boot:run
+
+
 4)Abir el navegador http://localhost:2410/CotizarMetales
+
+
 5) Se traeran los valores de "Plata" - "cobre" - "oro"
 
 
