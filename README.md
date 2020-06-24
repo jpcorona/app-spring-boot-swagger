@@ -3,6 +3,7 @@
 La aplicación consiste el una aplicación de reservas con sus respectivo CRUD con servicios REST que está documentado con swagger.
 Se uso framework thymeleaf para implementar plantilla html.
 
+Antes de ejecutar se debe tener configurado las variables de entorno en el equipo (JAVA_HOME y PATH
 Para ejecutar el Spring tools Suite:
 
 1)Descargar proyecto maven
@@ -84,6 +85,48 @@ nota: reemplazar jcoronanavarro por su id en docker hub.
 ###############################################################################################
 
 
+Notas si no exoste configuración en el equipo:
+
+Descargar e instalar jdk 8 de acuerdo al tipo de arquitectura del pc(en mi caso es de 64 bits)
+En esta instalación también se instala el JRE EL CUÁL NOS SIRVE PARA EJECUTAR APLICACIONES JAVA,
+SE DEJA LA CAPRETA POR DEFECTO DE INSTALACIÓN.
+
+Luego configuramos las variables de entorno:
+Abrir una consola para verfificar que variables existen configuradas:
+echo $JAVA_HOME
+
+En Windows, para crear la variable JAVA_HOME se pueden seguir los siguientes pasos:
+
+Hacer clic en el botón derecho de "Equipo"
+Seleccionar "Propiedades"
+Pinchar en "Configuración avanzada del sistema" > "Variables de entorno"
+Pulsar en el botón "Nueva..." (variable del sistema)
+En el "Nombre de la variable" escribir JAVA_HOME y en el "Valor de la variable" poner la ruta donde se instalo jdk 8.
+En mi caso es C:\Program Files\Java\jdk1.8.0_202
+
+Configurar PATH
+
+Hacer clic en el botón derecho de "Equipo"
+Seleccionar "Propiedades"
+Pinchar en "Configuración avanzada del sistema" > "Variables de entorno"
+Seleccionar la variable PATH
+Pulsar en el botón "Editar"
+En el "Valor de la variable" –sin borrar lo que ya hay– añadir al final un punto y coma ";" seguido de la ruta donde se encuentre el archivo javac.exe. Por ejemplo:
+;C:\Program Files\Java\jdk1.8.0_151\bin
+
+
+
+Instalar Maven
+Descaragr versión 3.6.3 de MAVEN
+Luego de descargar copiar en el disco c y descomprimir
+Luego creamos la Varuable de entorno para MAVEN:
+
+Hacer clic en el botón derecho de "Equipo"
+Seleccionar "Propiedades"
+Pinchar en "Configuración avanzada del sistema" > "Variables de entorno"
+Click en el botón "Nueva..." (variable del sistema)
+En el "Nombre de la variable" escribir MVN_HOME y en el "Valor de la variable" poner la ruta donde está la carpeta bin de maven.
+En mi caso es C:\apache-maven-3.6.3\bin
 
 
 
